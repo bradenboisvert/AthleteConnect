@@ -1,2 +1,2 @@
 # AthleteConnect
-A sports coaching platform to connect players with professional athletes.
+A sports coaching platform that connects players with professional athletes.
