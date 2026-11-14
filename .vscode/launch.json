@@ -1,0 +1,7 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "type": "node", "request": "launch", "name": "AthleteConnect: demo", "program": "${workspaceFolder}/scripts/demo.js", "cwd": "${workspaceFolder}", "console": "integratedTerminal", "skipFiles": ["<node_internals>/**"] },
+    { "type": "node", "request": "launch", "name": "AthleteConnect: empty app", "program": "${workspaceFolder}/server/index.js", "cwd": "${workspaceFolder}", "console": "integratedTerminal", "skipFiles": ["<node_internals>/**"] }
+  ]
+}
