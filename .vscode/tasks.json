@@ -1,0 +1,7 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "AthleteConnect: build", "type": "shell", "command": "npm run build", "group": { "kind": "build", "isDefault": true }, "problemMatcher": [] },
+    { "label": "AthleteConnect: tests", "type": "shell", "command": "npm test", "group": "test", "problemMatcher": [] }
+  ]
+}

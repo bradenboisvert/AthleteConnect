@@ -1,0 +1,8 @@
+data/
+dist/
+.env
+*.sqlite*
+node_modules/
+coverage/
+hosted/output/
+.sites-runtime/
