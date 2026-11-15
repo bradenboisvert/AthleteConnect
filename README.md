@@ -76,6 +76,8 @@ The app records session quotes and completed-session value. These figures are no
 
 ## iPhone plan
 
+The private hosted adapter is now implemented under `hosted/`; run `npm run build:hosted`. It uses platform-protected owner sign-in, separate fictional test roles, shared D1 storage, and private R2 photo storage. The local app and its records remain separate. See [the hosted implementation notes](hosted/README.md) for access boundaries, migration instructions, and publication status. This does not mean a phone URL is live: the supported hosting source connection is still blocked by hostname resolution in the execution environment.
+
 The UI is designed for touch screens from 320px upward, including safe-area padding, a fixed bottom navigation, large touch targets, 16px form controls, and responsive layouts. Browser visual QA and physical iPhone testing remain required.
 
 An iPhone cannot reach this computer through its own `localhost` address. The next delivery step is an HTTPS hosted address pointing to the shared backend. On that address, open Safari → Share → Add to Home Screen → Open as Web App (where offered). The installed app still needs the server for accounts, sessions, and messages. Offline support is limited to the public app shell; bookings are never queued offline.

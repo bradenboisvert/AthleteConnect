@@ -9,6 +9,7 @@
     "demo": "node scripts/demo.js",
     "start": "node server/index.js",
     "build": "node scripts/build.js",
+    "build:hosted": "node scripts/build-hosted.js",
     "test": "node --test tests/*.test.js",
     "admin": "node scripts/admin.js"
   }

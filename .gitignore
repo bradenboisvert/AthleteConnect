@@ -4,3 +4,5 @@ dist/
 *.sqlite*
 node_modules/
 coverage/
+hosted/output/
+.sites-runtime/
